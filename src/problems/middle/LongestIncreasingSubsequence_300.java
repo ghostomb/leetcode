@@ -36,7 +36,7 @@ public class LongestIncreasingSubsequence_300 {
             int num = nums[i];
 
             int left = 0, right = groups;
-            while (left < right) {
+            while (left < right ) {
                 int mid = (left + right) /2 ;
                 if (top[mid] >= num) {
                     right = mid;
